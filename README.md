@@ -5,7 +5,7 @@
 - A clone of Task Management System designed by Abdullah Walid for efficient projet management and collaborations across teams
 
 ## Screenshots
-![Screemshot](./images/complete-dashboard.png.png)
+![Screenshot](./images/complete-dashboard.png)
 
 ## Source Link
 -[Link to original source](https://www.behance.net/gallery/209914309/Task-Management-System-Dashboard-Web-App?tracking_source=search_projects)
