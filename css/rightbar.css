@@ -107,15 +107,15 @@
   column-gap: 2rem;
 }
 
-.to-do-design-section, .in-progress-modelling-section {
+.to-do-design-section, .in-progress-modelling-section, .done-marketing-section {
   height: auto;
-  width: 32%;
+  width: 33%;
   display: flex;
   flex-direction: column;
   row-gap: 1rem;
 }
 
-.to-do-container, .in-progress-container {
+.to-do-container, .in-progress-container, .done-container {
   height: auto;
   width: 100%;
   display: flex;
@@ -131,11 +131,15 @@
   background-color: rgb(227, 241, 247);
 }
 
+.done-container {
+  background-color: rgb(212, 248, 212);
+}
+
 .first-container .dev {
   color: #a863f1;;
 }
 
-.to-do-container p, .in-progress-container p {
+.to-do-container p, .in-progress-container p, .done-container p {
   font-weight: 700;
 }
 
@@ -273,7 +277,16 @@
   padding: .2rem .3rem;
   border-radius: .2rem;
 }
+.medium-time-container .flag-medium {
+  background-color: rgba(255, 165, 0,.1);
+  color: rgb(245, 164, 14);
+  padding: .2rem .3rem;
+  border-radius: .2rem;
+}
 
+.medium-time-container .flag-medium p, .medium-time-container .flag-medium span {
+  color: orange;
+}
 .clock-october {
   background-color: rgba(128, 128, 128, .2);
   padding: .2rem .3rem;
@@ -310,6 +323,16 @@
   flex-direction: row;
 }
 
+.medium-time-container
+.flag-medium .high, 
+.medium-time-container
+.flag-medium .red-flag  {
+  color: red;
+}
+
+.medium-time-container .red-container {
+  background-color: rgb(233, 219, 219);
+}
 .user-image {
   height: 30px;
   width:30px;
@@ -371,4 +394,12 @@
 .component {
   box-shadow: none;
   border: 1px solid #ddd;
+}
+
+.first-container .design-paragraph {
+  color: orange;
+}
+
+.first-container .marketing {
+  color: rgb(29, 206, 206);
 }
